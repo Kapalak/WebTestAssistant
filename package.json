@@ -1,0 +1,25 @@
+{
+  "name": "WebTestAssistant",
+  "version": "1.0.0",
+  "description": "This project is an automated web test runner based on cypress framework",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^8.3.1",
+    "cypress-xpath": "^1.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kapalak/WebTestAssistant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kapalak/WebTestAssistant/issues"
+  },
+  "homepage": "https://github.com/Kapalak/WebTestAssistant#readme"
+}
