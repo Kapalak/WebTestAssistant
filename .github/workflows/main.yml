@@ -46,6 +46,9 @@ jobs:
           # Directory containing files to upload
           path: cypress/videos/3-Evq/evq.spec.js.mp4     
           
+      # Runs a single command using the runners shell
+      - name: List files
+        run: ls tests -R          
       
       - name: Publish Unit Test Results
         uses: EnricoMi/publish-unit-test-result-action@v1
