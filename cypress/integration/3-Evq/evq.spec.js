@@ -22,7 +22,7 @@ describe('001 Evq web tests', () => {
 
     cy.get('.username')
       .invoke('attr', 'title')
-      .should('eq', Cypress.env('username'));
+      .should('eq', Cypress.env('EVQ_USERNAME'));
 
     cy.xpath('//a[@title="Guides et bilans"]')
       .should('have.css', 'font-family', 'PlutoSansRegular');
