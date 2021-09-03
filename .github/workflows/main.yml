@@ -54,5 +54,5 @@ jobs:
         uses: EnricoMi/publish-unit-test-result-action@v1
         with:
           check_name: Unit Test Results
-          files: "cypress/tests/test-output-*.xml"
+          files: "tests/*.xml"
       
