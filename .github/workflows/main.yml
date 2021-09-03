@@ -44,6 +44,12 @@ jobs:
           # Artifact name
           name: evq-video
           # Directory containing files to upload
-          path: cypress/videos/3-Evq/evq.spec.js.mp4
+          path: cypress/videos/3-Evq/evq.spec.js.mp4     
           
+      
+      - name: Publish Unit Test Results
+        uses: EnricoMi/publish-unit-test-result-action@v1
+        with:
+          check_name: Unit Test Results
+          files: "/tests/test-output-*.xml"
       
