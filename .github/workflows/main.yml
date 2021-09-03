@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo Hello, world!
+        run: ls -l
 
       - name: Run a multi-line script
         run: |
@@ -35,4 +35,4 @@ jobs:
       
       - name: Run a multi-line script
         run: |
-          npx cypress run --spec ./cypress/integration/3-evq/*.spec.js
+          npx cypress run --spec cypress/integration/3-evq/*.spec.js
