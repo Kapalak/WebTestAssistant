@@ -40,7 +40,7 @@ describe('001 Evq web tests', () => {
       win.eval("$('.nav-link-text:nth(3)').click()");
      });
 
-     cy.url().should('include', '/Cedules');
+     cy.url().should('include', '/fiches');
 
      cy.window().then((win) => {
       win.eval("$('.nav-link-text:nth(4)').click()");
