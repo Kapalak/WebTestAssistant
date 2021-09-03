@@ -36,3 +36,14 @@ jobs:
       - name: Run Cypress Test
         run: |
           npx cypress run --spec cypress/integration/3-Evq/*.spec.js
+          
+      
+      - name: Upload artifact
+        uses: actions/upload-artifact@v1.0.0
+        with:
+          # Artifact name
+          name: Spider-cli.exe
+          # Directory containing files to upload
+          path: cypress/videos/3-Evq/
+          
+      
