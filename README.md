@@ -16,6 +16,8 @@ For More details check
 https://docs.cypress.io/guides/dashboard/introduction#Integrate-with-GitHub
 
 
+Click on the video :
+
 [![Watch the video](https://img.youtube.com/vi/x-29nx-INHo/2.jpg)](https://www.youtube.com/watch?v=x-29nx-INHo)
 
 
