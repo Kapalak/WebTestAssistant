@@ -35,4 +35,4 @@ jobs:
       
       - name: Run Cypress Test
         run: |
-          npx cypress run --spec cypress/integration/3-evq/*.spec.js
+          npx cypress run --spec cypress/integration/3-Evq/*.spec.js
