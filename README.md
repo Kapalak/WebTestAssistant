@@ -14,3 +14,6 @@ This project is an automated web test runner based on cypress framework
 
 For More details check 
 https://docs.cypress.io/guides/dashboard/introduction#Integrate-with-GitHub
+
+
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=x-29nx-INHo)
