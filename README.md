@@ -10,3 +10,7 @@ This project is an automated web test runner based on cypress framework
 `npm install`
 
 `npx cypress open`
+
+
+For More details check 
+https://docs.cypress.io/guides/dashboard/introduction#Integrate-with-GitHub
