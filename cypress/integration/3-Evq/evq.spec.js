@@ -9,7 +9,7 @@ describe('001 Evq web tests', () => {
 
     cy.get('#UserName')
       .type(Cypress.env('EVQ_USERNAME'))
-      .should('have.value', Cypress.env('EVQ.USERNAME'))
+      .should('have.value', Cypress.env('EVQ_USERNAME'))
 
     cy.get('#Password')
       .type(Cypress.env('EVQ_PASSWORD'))
