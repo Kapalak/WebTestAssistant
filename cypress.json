@@ -11,8 +11,6 @@
     "supportFile": "cypress/support/index.js",
     "projectId": "mio5jy",
     "env": {
-        "EVQ_URL": "https://evq.azurewebsites.net/",
-        "EVQ_USERNAME": "jjack",
-        "EVQ_PASSWORD": "Test2021!"
+        "ASKIA_URL": "https://askia.com/"
     }
 }
