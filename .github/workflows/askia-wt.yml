@@ -44,7 +44,7 @@ jobs:
           # Artifact name
           name: evq-video
           # Directory containing files to upload
-          path: cypress/videos/1-Askia/askia.spec.js.mp4     
+          path: cypress/videos/1-Askia/1-Askia.spec.js.mp4
           
       # Runs a single command using the runners shell
       - name: List files
