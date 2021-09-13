@@ -25,30 +25,22 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
-      - name: List files
-        run: ls cypress/integration -R
-
       - name: Install NPM
         run: |
           npm install        
       
       - name: Run Cypress Test
         run: |
-          npx cypress run --spec cypress/integration/1-Askia//*.spec.js
+          npx cypress run --spec cypress/integration/1-Askia/*.spec.js
         continue-on-error: true          
       
       - name: Upload video test result
         uses: actions/upload-artifact@v1.0.0
         with:
           # Artifact name
-          name: evq-video
+          name: test-result-video
           # Directory containing files to upload
-          path: cypress/videos/1-Askia/1-Askia.spec.js.mp4
-          
-      # Runs a single command using the runners shell
-      - name: List files
-        run: ls tests -R          
+          path: cypress/videos/1-Askia/1-Askia.spec.js.mp4              
       
       - name: Publish Unit Test Results
         uses: EnricoMi/publish-unit-test-result-action@v1
